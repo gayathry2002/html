@@ -1,0 +1,230 @@
+.back{
+    background-image: url('19a.jpeg'); width:100%;height:920px;background-size: cover;background-repeat: no-repeat;padding-right: 20px;
+    background-position: center;
+    background-size: cover;
+}
+.button {
+    background-color: hsl(180, 7%, 97%);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  .button:hover {
+    background-color: #649cb6;
+  }
+
+.h1-f{
+    font-family: 'Fraunces', serif;
+        font-size: 56px;
+        text-transform: uppercase;
+        color: #FFF;
+        letter-spacing: 6px;
+        /* padding-left: 630px; */
+        padding-top: 250px;
+        padding-bottom: 50px;
+        
+
+}
+
+#arrow{
+  /* padding-left:920px; */
+  /* margin-top: -320px; */
+  
+}
+
+#egg1{
+    width: 100%; height: 100%;
+    position: relative;
+}
+.b{
+    height: 150px;
+}
+.egg1>[class*='col-']{
+padding-left: 0;
+padding-right: 0;
+}
+
+
+div.page{
+   
+}
+h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+p{
+    color: gray;
+    font-weight: 700px;
+    
+}
+
+    
+    .hover-2 {
+        font-family: 'Fraunces', serif;
+    font-weight: 900px;
+    text-decoration: none;
+        background: 
+          linear-gradient(#dd4328 0 0) no-repeat
+           calc(200% - var(--p,0%)) 100% / 200% var(--p,.50em);
+        transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
+    
+      }
+      .hover-2:hover {
+        --p: 100%;
+        --t: .2s;
+        color: #fff;
+      }
+      
+    
+
+#glass{
+    width:100%;height: 100%;
+}
+
+div.orange{
+    padding-left: 250px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+
+}
+.glass1>[class*='col-']{
+    padding-left: 0;
+    padding-right: 0;
+    }
+div.cherry{
+    background-image: url('cherry.jpg'); width:100%;height:800px;background-size: cover;background-repeat: no-repeat;
+    color: darkgreen;
+    padding-top: 500px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+div.orng{
+background-image: url('orng.jpg'); width:100%;height:800px;background-size: cover;background-repeat: no-repeat;
+color: darkgreen;
+padding-top: 500px;
+ padding-bottom: 100px;
+ text-align: center;
+}
+#orng1{
+    font-family: 'Barlow', sans-serif;
+    /* font-size: 18px; */
+    font-weight: 600;
+    color: darkgreen;
+    
+}
+#emily{
+    border-radius: 100%;
+    /* margin-bottom: 50px; */
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+    overflow: clip;height: 80px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    
+    
+}
+h2{
+    text-align: center; color: gray;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900px;
+    padding-top: 100px;
+}
+#emily1{
+    text-align: center;
+    color: black;
+    /* margin-bottom: 100px; */
+}
+div.emily{
+    text-align: center;
+
+}
+#thomu{
+    border-radius: 100%;
+    /* margin-bottom: 50px; */
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+    overflow: clip;height: 80px;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    
+    
+}
+h2{
+    text-align: center; color: gray;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900px;
+    padding-top: 100px;
+}
+#thomu1{
+    text-align: center;
+    color: black;
+    /* margin-bottom: 100px; */
+}
+div.thomu{
+    text-align: center;
+
+}
+#jen{
+    border-radius: 100%;
+    /* margin-bottom: 50px; */
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+    overflow: clip;height: 80px;
+   
+    
+    
+}
+h2{
+    text-align: center; color: gray;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900px;
+    padding-top: 100px;
+}
+#jen1{
+    text-align: center;
+    color: black;
+    /* margin-bottom: 100px; */
+
+}
+div.jen{
+    text-align: center;
+
+}
+#pic{
+   width:100%;
+}
+.pic1>[class*='col-']{
+    padding-left: 0;padding-right: 0;
+}
+div.icon{
+    background-color: #90D4C5;
+    text-align: center;
+    height: 300px;
+    padding-top:200px;
+    padding-bottom:200px;
+}
+ nav.nav-item.nav-link.hover{
+    background-color: #FFF;
+ }
+
+  .asd{
+    color: red;
+  }
+
+
+
+

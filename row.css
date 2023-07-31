@@ -1,0 +1,21 @@
+body{
+    background-color:yellowgreen;
+}
+div{
+    border:1px solid black;
+}
+h1{
+    background-color: green;height: 70px;
+}
+h2{
+    background-color: aquamarine;
+}
+h3{
+    background-color: orangered;height: 80px
+}
+h4{
+    background-color: blue;height: 800px;
+}
+h5{
+    background-color: blueviolet;height: 800px;
+}
