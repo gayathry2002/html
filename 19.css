@@ -98,37 +98,32 @@ div.orange{
     padding-right: 0;
 }
 
-.c{
+/* .c{
     position: relative;
     width:100%;
-    height: 100%;
+    height: 100%; */
 }
-.o{
-    position: absolute;
-    text-align: center;
-    width: 10%;
-    top: 50%;
-    left: 20%;
-    padding-bottom: 200px;
-    /* transform: translate(-50% -60%); */
+.card{
+    position: relative;
 }
-.r{
+.card .box-content {
     position: absolute;
+    top: 70%;
     text-align: center;
-    width: 10%;
-    top: 50%;
-    left: 70%;
-    /* transform: translate(-100% -100%); */
+    max-width: 400px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #1F5449;
 }
 
-.co>[class*='col-']{
+
+.go>[class*='col-']{
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 0;  
     }
+ 
 
-
-
-div.cherry{
+/* div.cherry{
     background-image: url('cherry.jpg'); width:100%;background-size: cover;background-repeat: no-repeat;
     color: darkgreen;
     padding-top: 500px;
@@ -141,7 +136,7 @@ color: darkgreen;
 padding-top: 500px;
  padding-bottom: 100px;
  text-align: center;
-}
+} */
 #orng1{
     font-family: 'Barlow', sans-serif;
     /* font-size: 18px; */
