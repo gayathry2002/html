@@ -1,0 +1,10 @@
+.back{
+    background-image: url('background.jpeg');
+    height:1000px;
+    position: relative;
+    width: 100%;
+    
+}
+.btn{
+    background-image:linear-gradient(green,blue);justify-content: center;
+}
