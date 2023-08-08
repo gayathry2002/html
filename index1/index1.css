@@ -1,0 +1,44 @@
+.logo{
+    width: 55px;
+    margin-right: 10px;
+   
+    vertical-align: middle;
+    border-style: none;
+    }
+ .color-highlight {
+        color: #415678;
+    }
+p{
+    box-sizing: border-box;
+    display: block;
+    color: #717e96;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Heebo', sans-serif;
+}
+.btn1{
+    background: #415678;
+    padding: 12px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 22px;
+    border: 2px solid transparent;
+    transition: .5s ease-out;
+    display: inline-block;
+}
+   .btn1:hover {background-color:#415678}
+
+.btn2{
+    padding: 12px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 22px;
+    border: 2px solid #415678 ;
+    transition: .1s ease-out;
+    display: inline-block;
+}
+
+
