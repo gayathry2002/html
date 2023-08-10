@@ -41,8 +41,36 @@ p{
     margin-right: 10px;
     background: #415678;
     display: inline-block;
+ }
+/* .img1.content:hover{
+     background: #415678;
+    transition: all .3s ease;
+    text-align: center;
+    padding: 15px;
+    background: #f8f8fc;
+    border-radius: 15px;
+    transition: all .3s ease;
 }
-.bg{
+*/
+
+.card{
+    padding: 15px;
+    background: #f8f8fc;
+    border-radius:30px;
+    transition: all .3s ease;
+    text-align: center;
+    border-start-end-radius: 20px;
+}
+.a:hover{
+    background-color: #415678;
+    color: #fff;
+}
+.card-text1:hover{
+    color: #fff;
+}
+.image-top1{
+    background-color:white;
+}
+.back{
     background-color: #415678;
 }
-
