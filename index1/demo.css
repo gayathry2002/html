@@ -1,110 +1,21 @@
-
- .color-highlight {
-        color: #415678;
-    }
-p{
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    display: block;
-    color: #717e96;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Heebo', sans-serif;
-}
-.btn1{
-    background: #415678;
-    padding: 12px 30px;
-    font-weight: 500;
-    font-size: 15px;
-    border-radius: 5px;
-    color: #fff;
-    margin-top: 22px;
-    border: 2px solid transparent;
-    transition: .5s ease-out;
-    display: inline-block;
-}
-   .btn1:hover {background-color:#415678}
-
-.btn2{
-    padding: 12px 30px;
-    font-weight: 500;
-    font-size: 15px;
-    border-radius: 5px;
-    margin-top: 22px;
-    border: 2px solid #415678 ;
-    transition: .1s ease-out;
-    display: inline-block;
-}
- .cirle-list{
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    margin-right: 10px;
-    background: #415678;
-    display: inline-block;
- }
-
-.card{
-    padding: 15px;
-    background: #f8f8fc;
-    border-radius:50px;
-    transition: all .3s ease;
-    text-align: center;
-    border-start-end-radius: 20px;
-}
-.card.a{
-    border-radius: 50px;
-}
-.a:hover{
-    background-color: #415678;
-    color: #fff;
-    
-}
-.card-text1:hover{
-    color: #fff;
-}
-.image-top1{
-    background-color:white;
-}
-.card.back{
-    background-color:#415678;
-    border-radius: 50px;
-}
-.img:hover{
-    opacity: 0.3;
-    color: black;
-}
-.middle:hover{
-    opacity: 1;
-    
-}
-.middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
   }
-  .text {
-    color:white;
-    font-size: 16px;
-    
-  }  
-
-
-
-
-
-
-
-
-
-
-
-
-  /* .portfolio-section {
+  body {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    background-color:#fff;
+    z-index: 0;
+  }
+  p {
+    color: #fff;
+  }
+  /* -----------------------------------
+        Gallery Section
+  --------------------------------------*/
+  .portfolio-section {
     padding: 50px 0;
     background-color:#fff;
   }
@@ -117,13 +28,13 @@ p{
   .portfolio-menu {
     text-align: center;
   }
-  .control { */
-    /* background: #000; */
-    /* color: #fff;
-    padding: 5px 10px; */
-    /* border: 1px solid #343a40; */
-    /* border-radius: 3px; */
-    /* margin: 5px;
+  .control {
+    background:#000;
+    color: #fff;
+    padding: 5px 10px;
+    /* border: 1px solid #343a40;
+    border-radius: 3px; */
+    margin: 5px;
     cursor: pointer;
     -webkit-transition: all 05s ease;
     -moz-transition: all 05s ease;
@@ -132,7 +43,7 @@ p{
     transition: all 0.5s ease;
   }
   .control:hover {
-    background: #343a40;
+    background: #343a40; 
   }
   .mixitup-control-active {
     color: #fff;
@@ -194,17 +105,17 @@ p{
     z-index: 3;
   }
   .portfolio-item:hover .portfolio-overlay::before {
-    width: 80%;
+    width: 50%;
     height: 80%;
-    border-top: 1px solid #50977f;
-    border-right: 1px solid #50977f;
+    /* border-top: 1px solid #50977f;
+    border-right: 1px solid #50977f; */
     transition: width 0.1s ease 0.3s, height 0.1s ease 0.5s;
   }
   .portfolio-item:hover .portfolio-overlay::after {
-    width: 80%;
+    width: 50%;
     height: 80%;
-    border-bottom: 1px solid #50977f;
-    border-left: 1px solid #50977f;
+    /* border-bottom: 1px solid #50977f;
+    border-left: 1px solid #50977f; */
     transition: width 0.1s ease 0.6s, height 0.1s ease 0.7s;
   }
   .portfolio-item li:hover .portfolio-overlay {
@@ -236,4 +147,4 @@ p{
     color: #fff;
     line-height: 40px;
     cursor: pointer;
-  } */
+  }
