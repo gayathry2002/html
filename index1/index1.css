@@ -215,7 +215,11 @@ p{
   .portfolio-overlay .magnify-icon:hover {
     background: #000;
 
-  }
+  } 
+ 
+
+
+  
   
 
   .card.ser{
@@ -240,5 +244,22 @@ p{
   background-color: #717e96;
 }
 
-
-
+.card-img-top.easter{
+  border-radius:30px;
+}
+.card-img-top.easter:hover{
+  
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+.btn.btns{
+  background-color: #415678;
+}
+.div{
+  background-color:#020312;
+}
