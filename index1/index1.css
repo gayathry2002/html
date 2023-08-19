@@ -51,6 +51,8 @@ p{
     text-align: center;
     border-start-end-radius: 20px;
 }
+
+
 .card.a{
     border-radius: 50px;
 }
@@ -262,4 +264,14 @@ p{
 }
 .div{
   background-color:#020312;
+  border-bottom: 1px solid #717e96;
+}
+li{
+  list-style: none;
+}
+.prof{
+  width:20px;
+}
+.copy{
+  color: #717e96;
 }
