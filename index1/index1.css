@@ -226,6 +226,13 @@ p{
 
   .card.ser{
     border-radius: 50px;
+    width:100%;
+}
+@media (max-width:525px) and (min-width:300px){
+  .card.ser{
+      margin-left:63%;
+            
+  }
 }
 .ser:hover{
     background-color: #415678;
@@ -245,6 +252,23 @@ p{
 .btn3:hover{
   background-color: #717e96;
 }
+.btnrow button{
+  margin-left:75%;
+       
+}
+/* @media (max-width:1400px) and (min-width:576px){
+  .btnrow button{
+      margin-left:63%;
+            
+  }
+} */
+
+/* @media (max-width:575px) and (min-width:300px){
+  .btnrow button{
+      margin-left:33%;
+           
+  }
+} */
 
 .card-img-top.easter{
   border-radius:30px;
@@ -274,4 +298,7 @@ li{
 }
 .copy{
   color: #717e96;
+}
+.last{
+  width:45px;
 }
