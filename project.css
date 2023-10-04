@@ -1,0 +1,13 @@
+.back{
+    background-image:linear-gradient(rgba(101, 223, 217, 0.664),rgb(66, 129, 115));justify-content: center;
+    height:100vh;
+    width: 100%;
+    
+}
+.btn{
+    background-color: blueviolet;
+}
+form{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
